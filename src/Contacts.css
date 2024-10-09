@@ -1,0 +1,52 @@
+.TituloContatos {
+    color: rgb(117, 191, 255);
+    text-align: center;
+}
+
+.contatosContainer {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactItem {
+    background-color: #5140e7;
+    margin: 10px 0;
+    width: 60%;
+    border-radius: 10px;
+    transition: 1s;
+    padding-top: 0.1px;
+    padding-left: 20px;
+    color: #ffffff;
+    position: relative;
+}
+
+.contactItem:hover {
+    box-shadow: 0px 0px 30px 1px rgb(255, 255, 255);
+    transition: 1s;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.ButtonEdit, .ButtonDelete {
+    background-color: #ffffff;
+    color: #5140e7;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top: -5.5%;
+    height: 40%;
+
+}
+
+.ButtonEdit:hover, .ButtonDelete:hover {
+    background-color: #dddddd;
+}
