@@ -1,0 +1,71 @@
+  .dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    clear: both;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+  }
+  
+  .form-inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-left: 20px; 
+  }
+  
+  .form-control {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #ffffff00;
+    background-clip: padding-box;
+    border: 1px solid #ffffff00;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .form-control:focus {
+    color: #ffffff;
+    background-color:    #ffffff00;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+    background-color: transparent;
+  }
+  
+  .btn-outline-success:hover {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+
+  .collapse.navbar-collapse {
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    color: #28a745;
+  }
+  
+  .form-inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .form-control-mr-sm-2{
+    color: #fff;
+  }

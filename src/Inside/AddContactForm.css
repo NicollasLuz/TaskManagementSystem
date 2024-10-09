@@ -1,0 +1,135 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.25);
+    animation: BgAnimation 30s linear infinite;
+  }
+
+  @keyframes BgAnimation {
+    0% { 
+      background-color:rgba(255, 0, 0, 0.637);
+    }
+
+    30% { 
+      background-color:rgba(255, 153, 0, 0.637);
+    }
+
+    60% { 
+      background-color:rgba(255, 238, 0, 0.637);
+    }
+
+    90% { 
+      background-color:rgba(0, 255, 213, 0.637);
+    }
+
+    100% { 
+      background-color:rgba(255, 0, 0, 0.637);
+
+    }
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 1em; 
+    padding-right: 1em; 
+    padding-bottom: 1em;
+    background-color: #424242;
+    border-radius: 20px;
+  }
+
+  .input-field {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: rgb(0, 255, 200);
+  }
+
+  .field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8em;
+    border-radius: 25px;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #171717;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+
+  }
+
+  .button1 {
+    padding: 0.5em;
+    padding-left: 5em;
+    padding-right: 5em;
+    border-radius: 5px;
+    margin-right: 0.5em;
+    border: none;
+    outline: none;
+    transition: 0.4s ease-in-out;
+    background-image: linear-gradient(163deg, #9b9cff 0%, #0077ff 100%);
+    color: rgba(255, 255, 255, 0.742);
+  }
+
+  .tab {
+    display: flex;
+    gap: 0.5em; 
+}
+  .Marinho{
+    margin-top: -15%;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .card {
+    border-radius: 22px;
+    transition: 1s;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    margin-left: 0;
+    width: auto;
+    height: 60%;
+    max-height: 500px;
+    padding: 1px 24px;
+    top: 25%;
+  }
+  
+  .card:hover {
+    filter: grayscale(30%);
+    background-color: #3a46e7;
+    box-shadow: 0px 0px 30px 1px rgb(255, 255, 255);
+    transition: 1s;
+  }
+
+  .tabcontent {
+    display: none; 
+  }
+  
+  .tabcontent.active {
+    display: block;
+  }
+  
+  .tituloLista{
+    margin: auto; 
+    width: 100%;
+    height: 0vw;
+  }
+
+  .contact-list {
+    display: none; 
+  }
+
+  .contact-list.active {
+    display: block;
+  }
+  
