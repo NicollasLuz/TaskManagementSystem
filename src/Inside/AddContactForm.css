@@ -1,4 +1,4 @@
-.wrapper {
+.wrapper2 {
     width: 100vw;
     height: 100vh;
     background-size: 100% 100%;
@@ -29,7 +29,7 @@
     }
   }
   
-  .form {
+  .form2 {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -40,7 +40,7 @@
     border-radius: 20px;
   }
 
-  .input-field {
+  .input-field2 {
     background: none;
     border: none;
     outline: none;
@@ -48,7 +48,7 @@
     color: rgb(0, 255, 200);
   }
 
-  .field {
+  .field2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,7 +63,7 @@
 
   }
 
-  .button1 {
+  .button12 {
     padding: 0.5em;
     padding-left: 5em;
     padding-right: 5em;
@@ -76,17 +76,13 @@
     color: rgba(255, 255, 255, 0.742);
   }
 
-  .tab {
-    display: flex;
-    gap: 0.5em; 
-}
-  .Marinho{
+  .Marinho2{
     margin-top: -15%;
     color: #ffffff;
     text-align: center;
   }
   
-  .card {
+  .card3 {
     border-radius: 22px;
     transition: 1s;
     display: flex;
@@ -104,7 +100,7 @@
     top: 25%;
   }
   
-  .card:hover {
+  .card3:hover {
     filter: grayscale(30%);
     background-color: #3a46e7;
     box-shadow: 0px 0px 30px 1px rgb(255, 255, 255);
@@ -119,17 +115,9 @@
     display: block;
   }
   
-  .tituloLista{
+  .tituloLista2{
     margin: auto; 
     width: 100%;
     height: 0vw;
-  }
-
-  .contact-list {
-    display: none; 
-  }
-
-  .contact-list.active {
-    display: block;
   }
   

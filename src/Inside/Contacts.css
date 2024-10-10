@@ -50,3 +50,12 @@
 .ButtonEdit:hover, .ButtonDelete:hover {
     background-color: #dddddd;
 }
+
+
+.tabcontent2 {
+    display: none; 
+  }
+  
+  .tabcontent2.active {
+    display: block;
+  }

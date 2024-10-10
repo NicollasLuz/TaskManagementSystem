@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import { useState} from 'react'
-import './App.css';
 import axios from 'axios';
+import './App.css';
 
 function Home() {
   const navigate = useNavigate();
@@ -40,6 +40,7 @@ function Home() {
     console.log("Dados antes do envio:", { name, email, password });
     axios.post('http://localhost:8080/connection.php', { name, email, password })
         .then(response => {
+            console.info('Dados enviados com sucesso!', response)
             alert('Dados enviados com sucesso!');
         })
         .catch(error => {
