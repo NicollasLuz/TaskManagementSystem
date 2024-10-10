@@ -1,25 +1,29 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import Tab from './Tab';
-import ContactList from '../ContactList'; // Assuming you have this component
+import ContactList from '../ContactList';
 
 function Navbar({ contacts, setContacts }) {
-  const [activeTab, setActiveTab] = useState('home'); // Default active tab
+  const [activeTab, setActiveTab] = useState('home');
 
   return (
-    <div>
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <Tab 
-          contacts={contacts} 
-          setContacts={setContacts} 
-          activeTab={activeTab}
-          setActiveTab={setActiveTab}
-        />
+    <>
+      <nav className="navbar">
+        <div className="navbar-content">
+          <Tab 
+            contacts={contacts} 
+            setContacts={setContacts} 
+            activeTab={activeTab}
+            setActiveTab={setActiveTab}
+          />
+        </div>
+      </nav>
+      
+      {/* Add some padding to the body to prevent content from hiding behind the navbar */}
+      <div style={{ paddingTop: '60px' }}>
+        {activeTab === 'contacts' && <ContactList contacts={contacts} />}
       </div>
-      
-      {activeTab === 'contacts' && <ContactList contacts={contacts} />}
-      
-    </div>
+    </>
   );
 }
 

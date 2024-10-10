@@ -1,10 +1,10 @@
   .dropdown-item {
-    display: block;
+    display:inline;
     width: 100%;
     padding: 10px 20px;
     clear: both;
     font-weight: 400;
-    color: #ffffff;
+    color: #ff0000;
     text-align: inherit;
     white-space: nowrap;
     background-color: transparent;
@@ -23,7 +23,7 @@
     font-size: 1rem;
     line-height: 1.5;
     color: #ffffff;
-    background-color: #ffffff00;
+    background-color: #f3181800;
     background-clip: padding-box;
     border: 1px solid #ffffff00;
     border-radius: 0.25rem;
@@ -69,3 +69,24 @@
   .form-control-mr-sm-2{
     color: #fff;
   }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0080ff;
+    padding: 10px 0;
+    z-index: 1000;
+    display:table-row;
+  }  
+  
+  .navbar-content {
+    display: table-row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Adjust based on your layout needs */
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
