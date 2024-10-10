@@ -89,4 +89,8 @@
     margin: 0 auto;
     padding: 0 20px;
   }
-  
+
+  .tab {
+    display:block;
+    gap: 0.1em; 
+}

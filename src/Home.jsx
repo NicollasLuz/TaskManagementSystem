@@ -40,6 +40,7 @@ function Home() {
     console.log("Dados antes do envio:", { name, email, password });
     axios.post('http://localhost:8080/connection.php', { name, email, password })
         .then(response => {
+            response.await = axios.post('https://')
             console.info('Dados enviados com sucesso!', response)
             alert('Dados enviados com sucesso!');
         })

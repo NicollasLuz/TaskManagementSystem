@@ -17,7 +17,7 @@
 
   switch ($method) {
     case 'POST':
-      // Lógica para lidar com requisições POST
+      // Lógica para lidar com requisições POST do React
       $name = $_POST['name'];
       $email = $_POST['email'];
       $password = $_POST['password'];

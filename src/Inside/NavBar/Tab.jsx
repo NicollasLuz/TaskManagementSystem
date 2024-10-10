@@ -1,6 +1,7 @@
-import './Navbar.css';
 import AddContactForm from '../AddContactForm';
 import ContactList from '../ContactList';
+import './Navbar.css';
+
 function Tab(contacts, setContacts) {
   return (
     <div className="tab">
